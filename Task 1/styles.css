@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0 200px;
+}
+
+header .logo {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    padding-top: 170px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    font-size: 20px;
+    display: inline;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #ff7f50;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', serif;
+}
+
+.hero p {
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.btn {
+    background: transparent;
+    border: 3px white solid;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    transition: background 0.4s;
+}
+
+.btn:hover {
+    background-color: #e8632e;
+}
+
+.about {
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destinations {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destination-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.destination-card img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    height: 75%;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact button {
+    color: white;
+    background-color: black;
+}
+
+.contact input, .contact button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 25px 0 100px;
+    }
+
+    header .logo {
+        font-size: 60px;
+        padding-top: 100px;
+    }
+
+    nav li {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 25px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .destination-card {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .destination-card img {
+        margin: 10px 0;
+    }
+}
